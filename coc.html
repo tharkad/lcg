@@ -1,0 +1,597 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+ 
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="back link">
+        <i class="icon icon-back-blue"></i>
+        <span>Back</span>
+       </a>
+    </div>
+    <div class="center sliding">Call of Cthulhu</div>
+    <div class="right">
+      <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="coc" class="page">
+    <div class="page-content">
+    
+		<form id="coc-coreset-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="coreset" value="coreset">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc"></i></div>
+					<div class="item-inner">
+						<div class="item-title">Core Set</div>
+						<div class="item-after"></div>
+					</div>
+				</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">Deluxe Expansions</div>
+		<form id="coc-deluxe-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="secrets-of-arkham" value="secrets-of-arkham">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-secrets-of-arkham"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Secrets of Arkham</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-order-of-the-silver-twilight" value="the-order-of-the-silver-twilight">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-order-of-the-silver-twilight"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Order of the Silver Twilight</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="seekers-of-knowledge" value="seekers-of-knowledge">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-seekers-of-knowledge"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Seekers of Knowledge</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-key-and-the-gate" value="the-key-and-the-gate">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-key-and-the-gate"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Key and the Gate</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="terror-in-venice" value="terror-in-venice">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-terror-in-venice"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Terror in Venice</div>
+					  <div class="item-after"></div>
+					</div>
+			 	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="denizens-of-the-underworld" value="denizens-of-the-underworld">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-denizens-of-the-underworld"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Denizens of the Underworld</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-sleeper-below" value="the-sleeper-below">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-sleeper-below"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Sleeper Below</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="for-the-greater-good" value="for-the-greater-good">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-for-the-greater-good"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">For the Greater Good</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-thousand-young" value="the-thousand-young">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-thousand-young"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Thousand Young</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">Forgotten Lore Cycle</div>
+		<form id="dwarrowdelf-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="spawn-of-madness" value="spawn-of-madness">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-spawn-of-madness"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Spawn of Madness</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="kingsport-dreams" value="kingsport-dreams">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-kingsport-dreams"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Kingsport Dreams</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="conspiracies-of-chaos" value="conspiracies-of-chaos">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-conspiracies-of-chaos"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Conspiracy of Chaos</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="dunwich-denizens" value="dunwich-denizens">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-dunwich-denizens"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Dunwich Denizens</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-mountains-of-madness" value="the-mountains-of-madness">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-mountains-of-madness"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Mountains of Madness</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="ancient-horrors" value="ancient-horrors">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-ancient-horrors"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Ancient Horrors</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">The Summons of the Deep Cycle</div>
+		<form id="against-the-shadow-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="spawn-of-the-sleeper" value="spawn-of-the-sleeper">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-spawn-of-the-sleeper"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Spawn of the Sleeper</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-horror-beneath-the-surface" value="the-horror-beneath-the-surface">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-horror-beneath-the-surface"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Horror Beneath the Surface</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-antidiluvian-dream" value="the-antidiluvian-dream">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-antidiluvian-dream"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Antidiluvian Dream</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-terror-of-the-tides" value="the-terror-of-the-tides">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-terror-of-the-tides"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Terror of the Tides</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-thing-from-the-shore" value="the-thing-from-the-shore">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-thing-from-the-shore"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Thing from the Shore</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-path-to-yha-nthlei" value="the-path-to-yha-nthlei">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-path-to-yha-nthlei"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Path to Y'ha-nthlei</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">The Dreamlands Cycle</div>
+		<form id="the-dreamlands-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="twilight-horror" value="twilight-horror">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-twilight-horror"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Twilight Horror</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="in-memory-of-day" value="in-memory-of-day">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-in-memory-of-day"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">In Memory of Day</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="in-the-dread-of-night" value="in-the-dread-of-night">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-in-the-dread-of-night"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">In the Dread of Night</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-search-for-the-silver-key" value="the-search-for-the-silver-key">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-search-for-the-silver-key"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Search for the Silver Key</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="sleep-of-the-dead" value="sleep-of-the-dead">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-sleep-of-the-dead"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Sleep of the Dead</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="journey-to-undnown-kadath" value="journey-to-undnown-kadath">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-journey-to-undnown-kadath"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Journey to Unknown Kadath</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">The Yuggoth Contract Cycle</div>
+		<form id="the-yuggoth-contract-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="whispers-in-the-dark" value="whispers-in-the-dark">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-whispers-in-the-dark"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Whispers in the Dark</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="murmurs-of-evil" value="murmurs-of-evil">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-murmurs-of-evil"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Murmurs of Evil</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-spoken-covenant" value="the-spoken-covenant">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-spoken-covenant"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Spoken Covenant</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-wailer-below" value="the-wailer-below">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-wailer-below"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Wailer Below</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="screams-from-within" value="screams-from-within">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-screams-from-within"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Screams from Within</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-cacophony" value="the-cacophony">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-cacophony"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Cacophony</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">The Rituals of the Order Cycle</div>
+		<form id="the-rituals-of-the-order-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-twilight-beckons" value="the-twilight-beckons">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-twilight-beckons"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Twilight Beckons</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="perilous-trials" value="perilous-trials">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-perilous-trials"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Perilous Trials</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="initiations-of-the-favored" value="initiations-of-the-favored">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-initiations-of-the-favored"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Initiations of the Favored</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="aspirations-of-ascension" value="aspirations-of-ascension">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-aspirations-of-ascension"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Aspirations of Ascension</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-gleaming-spiral" value="the-gleaming-spiral">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-gleaming-spiral"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Gleaming Spiral</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="that-which-consumes" value="that-which-consumes">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-that-which-consumes"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">That Which Consumes</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">Ancient Relics Cycle</div>
+		<form id="ancient-relics-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-shifting-sands" value="the-shifting-sands">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-shifting-sands"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Shifting Sands</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="curse-of-the-jade-emperor" value="curse-of-the-jade-emperor">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-curse-of-the-jade-emperor"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Curse of the Jade Emperor</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-breathing-jungle" value="the-breathing-jungle">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-breathing-jungle"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Breathing Jungle</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="never-night" value="never-night">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-never-night"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Never Night</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="into-tartarus" value="into-tartarus">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-into-tartarus"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Into Tartaurs</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="shadow-of-the-monolith" value="shadow-of-the-monolith">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-shadow-of-the-monolith"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Shadow of the Monolith</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+
+    	<div class="content-block-title">Revelations Cycle</div>
+		<form id="revelations-form" class="list-block store-data">
+		  <ul>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="written-and-bound" value="written-and-bound">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-written-and-bound"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Written and Bound</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="words-of-power" value="words-of-power">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-words-of-power"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Words of Power</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="ebla-restored" value="ebla-restored">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-ebla-restored"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Ebla Restored</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="lost-rites" value="lost-rites">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-lost-rites"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Lost Rites</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="the-unspeakable-pages" value="the-unspeakable-pages">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-the-unspeakable-pages"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">The Unspeakable Pages</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+			<li>
+   				<label class="label-checkbox item-content">
+        			<input type="checkbox" name="touched-by-the-abyss" value="touched-by-the-abyss">
+					<div class="item-media"><i class="icon icon-form-checkbox"></i><i class="icon icon-coc-touched-by-the-abyss"></i></div>
+					<div class="item-inner">
+					  <div class="item-title">Touched by the Abyss</div>
+					  <div class="item-after"></div>
+					</div>
+			  	</label>
+			</li>
+		  </ul>
+		</form>
+				
+    </div>
+  </div>
+</div>          
